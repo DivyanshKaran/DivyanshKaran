@@ -2,7 +2,7 @@
 <h3 align="center">An open source contributor from India</h3>
 
 # 💫 About Me:
-🔭 I’m currently working on [FrostyDeligths](https://github.com/DivyanshKaran/FrostyDeligths)<br>👯 I’m looking to collaborate on MERN Stack<br>🌱 I’m currently learning Deep Learning<br>💬 Ask me about React and NextJS<br>👯 Reach me on karandivyansh01@gmail.com
+🔭 I’m currently working on [FrostyDeligths](https://github.com/DivyanshKaran/FrostyDelights)<br>👯 I’m looking to collaborate on MERN Stack<br>🌱 I’m currently learning Deep Learning<br>💬 Ask me about React and NextJS<br>👯 Reach me on karandivyansh01@gmail.com
 
 
 ## 🌐 Socials:
