@@ -1,0 +1,458 @@
+/* Professional GitHub Profile Styles */
+
+/* Import Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* CSS Variables for Professional Theme */
+:root {
+  --navy-primary: #1a2332;
+  --slate-gray: #64748b;
+  --white: #ffffff;
+  --accent-blue: #3b82f6;
+  --light-gray: #f1f5f9;
+  --border-gray: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --shadow-light: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-medium: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --border-radius: 12px;
+  --spacing-xs: 8px;
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 32px;
+  --spacing-xl: 40px;
+  --spacing-2xl: 60px;
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--navy-primary);
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 0;
+}
+
+/* Professional Header Enhancements */
+.professional-header {
+  position: relative;
+  background: linear-gradient(135deg, var(--navy-primary) 0%, #0f172a 100%);
+  padding: var(--spacing-2xl) var(--spacing-md);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  margin-bottom: var(--spacing-xl);
+}
+
+.star-field {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: var(--white);
+  border-radius: 50%;
+  animation: twinkle 3s ease-in-out infinite;
+}
+
+.star:nth-child(odd) {
+  animation-delay: 1.5s;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.1; }
+  50% { opacity: 0.3; }
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid var(--accent-blue);
+  margin-bottom: var(--spacing-md);
+  transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+/* Professional Cards */
+.professional-card {
+  background: var(--white);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  border: 1px solid var(--border-gray);
+  transition: all 0.2s ease;
+}
+
+.professional-card:hover {
+  box-shadow: var(--shadow-medium);
+  transform: translateY(-2px);
+}
+
+/* Key Metrics Cards */
+.metric-card {
+  background: var(--white);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  border: 1px solid var(--border-gray);
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.metric-card:hover {
+  box-shadow: var(--shadow-medium);
+  transform: translateY(-2px);
+}
+
+.metric-number {
+  font-size: 2.5rem;
+  color: var(--accent-blue);
+  font-weight: 700;
+  margin-bottom: var(--spacing-xs);
+  font-family: 'Inter', sans-serif;
+}
+
+.metric-label {
+  color: var(--slate-gray);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Project Cards */
+.project-card {
+  background: var(--white);
+  padding: var(--spacing-md);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  border: 1px solid var(--border-gray);
+  transition: all 0.2s ease;
+}
+
+.project-card:hover {
+  box-shadow: var(--shadow-medium);
+  transform: translateY(-2px);
+}
+
+.project-title {
+  color: var(--navy-primary);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 var(--spacing-xs) 0;
+}
+
+.project-tagline {
+  color: var(--slate-gray);
+  font-size: 0.9rem;
+  margin: 0 0 var(--spacing-sm) 0;
+  font-weight: 500;
+}
+
+.project-description {
+  color: var(--slate-gray);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
+/* Tech Stack Pills */
+.tech-pill {
+  background: var(--light-gray);
+  color: #475569;
+  padding: 4px var(--spacing-xs);
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  display: inline-block;
+  margin-right: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+}
+
+/* Project Metrics */
+.project-metrics {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin: 0 0 var(--spacing-sm) 0;
+  font-size: 0.8rem;
+  color: var(--slate-gray);
+}
+
+/* Project Links */
+.project-links {
+  display: flex;
+  gap: var(--spacing-sm);
+  align-items: center;
+}
+
+.project-link {
+  color: var(--accent-blue);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.project-link:hover {
+  color: #2563eb;
+}
+
+.link-separator {
+  color: #cbd5e1;
+}
+
+/* Technical Expertise */
+.expertise-section {
+  background: var(--white);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  border: 1px solid var(--border-gray);
+}
+
+.expertise-category {
+  margin-bottom: var(--spacing-lg);
+}
+
+.expertise-category:last-child {
+  margin-bottom: 0;
+}
+
+.category-title {
+  color: var(--navy-primary);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 var(--spacing-sm) 0;
+}
+
+.expertise-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+}
+
+.expertise-icon {
+  color: var(--accent-blue);
+  font-size: 1rem;
+}
+
+.expertise-text {
+  color: var(--slate-gray);
+  font-size: 0.9rem;
+}
+
+/* Professional Links */
+.professional-links {
+  background: var(--white);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  border: 1px solid var(--border-gray);
+}
+
+.professional-link {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  color: var(--accent-blue);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.professional-link:hover {
+  color: #2563eb;
+}
+
+/* Gradient Separators */
+.gradient-separator {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent-blue), transparent);
+  margin: var(--spacing-xl) 0;
+}
+
+/* Contribution Graph Container */
+.contribution-container {
+  background: var(--white);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  border: 1px solid var(--border-gray);
+}
+
+/* Year-over-year Stats */
+.yoy-stats {
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--border-gray);
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 1.5rem;
+  color: var(--accent-blue);
+  font-weight: 700;
+  margin-bottom: var(--spacing-xs);
+}
+
+.stat-label {
+  color: var(--slate-gray);
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .professional-header {
+    padding: var(--spacing-lg) var(--spacing-sm);
+  }
+  
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .metric-card {
+    padding: var(--spacing-sm);
+  }
+  
+  .metric-number {
+    font-size: 2rem;
+  }
+  
+  .project-card {
+    padding: var(--spacing-sm);
+  }
+  
+  .professional-card {
+    padding: var(--spacing-md);
+  }
+  
+  .expertise-section {
+    padding: var(--spacing-md);
+  }
+  
+  .professional-links {
+    padding: var(--spacing-md);
+  }
+  
+  .professional-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .professional-header {
+    padding: var(--spacing-md) var(--spacing-sm);
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .metric-number {
+    font-size: 1.75rem;
+  }
+  
+  .project-title {
+    font-size: 1.1rem;
+  }
+  
+  .tech-pill {
+    font-size: 0.75rem;
+    padding: 3px 6px;
+  }
+}
+
+/* Loading Animation */
+.loading-skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Subtle Animations */
+.fade-in {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-up {
+  animation: slideUp 0.6s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Focus States for Accessibility */
+.professional-link:focus,
+.project-link:focus {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 2px;
+}
+
+/* Print Styles */
+@media print {
+  .professional-header {
+    background: var(--white) !important;
+    color: var(--navy-primary) !important;
+  }
+  
+  .star-field {
+    display: none;
+  }
+  
+  .professional-card,
+  .metric-card,
+  .project-card {
+    box-shadow: none !important;
+    border: 1px solid #ccc !important;
+  }
+}
