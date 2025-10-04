@@ -1,0 +1,306 @@
+/* Cosmic GitHub Profile CSS Effects */
+
+:root {
+  --primary-glow: #00ffff;
+  --secondary-glow: #ff00ff;
+  --accent-glow: #ffff00;
+  --space-bg: #0a0a0a;
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --neon-border: rgba(0, 255, 255, 0.5);
+}
+
+/* Glassmorphism Cards */
+.git-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 8px 32px rgba(0, 255, 255, 0.1);
+}
+
+/* Neon Border Effects */
+.neon-border {
+  border: 2px solid var(--neon-border);
+  box-shadow: 
+    0 0 5px var(--neon-border),
+    0 0 10px var(--neon-border),
+    0 0 15px var(--neon-border),
+    inset 0 0 5px var(--neon-border);
+  animation: neon-glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes neon-glow {
+  from {
+    box-shadow: 
+      0 0 5px var(--neon-border),
+      0 0 10px var(--neon-border),
+      0 0 15px var(--neon-border),
+      inset 0 0 5px var(--neon-border);
+  }
+  to {
+    box-shadow: 
+      0 0 10px var(--neon-border),
+      0 0 20px var(--neon-border),
+      0 0 30px var(--neon-border),
+      inset 0 0 10px var(--neon-border);
+  }
+}
+
+/* Star Field Animation */
+.star-field {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  animation: twinkle 3s infinite;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+/* Count-up Animation */
+.count-up {
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--primary-glow);
+  text-shadow: 0 0 10px var(--primary-glow);
+  animation: pulse-glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-glow {
+  from {
+    text-shadow: 0 0 5px var(--primary-glow);
+  }
+  to {
+    text-shadow: 0 0 20px var(--primary-glow), 0 0 30px var(--primary-glow);
+  }
+}
+
+/* Parallax Scrolling Effect */
+.parallax-element {
+  transform: translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.parallax-element:hover {
+  transform: translateY(-10px) scale(1.05);
+}
+
+/* Technology Constellation Style */
+.tech-constellation {
+  position: relative;
+  margin: 50px 0;
+}
+
+.tech-item {
+  position: absolute;
+  padding: 15px 25px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(5px);
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  animation: float 3s ease-in-out infinite;
+}
+
+.tech-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.2);
+  box-shadow: 0 0 30px var(--primary-glow);
+  z-index: 10;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.constellation-line {
+  position: absolute;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--primary-glow), transparent);
+  opacity: 0.6;
+  animation: pulse-line 2s ease-in-out infinite;
+}
+
+@keyframes pulse-line {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+/* Progress Bar Styling */
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(45deg, var(--primary-glow), var(--secondary-glow));
+  border-radius: 10px;
+  animation: progress-glow 2s ease-in-out infinite alternate;
+  position: relative;
+}
+
+.progress-fill::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  animation: progress-shine 3s infinite;
+}
+
+@keyframes progress-glow {
+  from {
+    box-shadow: 0 0 5px var(--primary-glow);
+  }
+  to {
+    box-shadow: 0 0 20px var(--primary-glow);
+  }
+}
+
+@keyframes progress-shine {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+/* Loading Animation */
+.loading-cosmic {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: var(--primary-glow);
+  animation: cosmic-spin 1s ease-in-out infinite;
+}
+
+@keyframes cosmic-spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Holographic Text Effect */
+.holographic-text {
+  background: linear-gradient(
+    45deg,
+    #00ffff,
+    #ff00ff,
+    #ffff00,
+    #00ffff
+  );
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: holographic-shift 3s ease-in-out infinite;
+}
+
+@keyframes holographic-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Orbit Animation for Social Links */
+.orbit-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+}
+
+.orbit-item {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  animation: orbit 10s linear infinite;
+  transform-origin: 100px 100px;
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) rotate(-360deg);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .git-card {
+    margin: 5px;
+    padding: 15px;
+  }
+  
+  .tech-item {
+    position: static;
+    margin: 10px auto;
+    display: block;
+    width: fit-content;
+  }
+  
+  .orbit-container {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* Particle System */
+#particle-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -2;
+}
+
+/* Scroll Progress Indicator */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary-glow), var(--secondary-glow));
+  z-index: 1000;
+  transition: width 0.3s ease;
+}
+
+/* Background Galaxy Effect */
+.galaxy-bg {
+  background: 
+    radial-gradient(ellipse at top, rgba(255, 0, 255, 0.1) 0%, transparent 70%),
+    radial-gradient(ellipse at bottom, rgba(0, 255, 255, 0.1) 0%, transparent 70%),
+    linear-gradient(135deg, #0a0a0a 0%, #1a0a1a 50%, #0a0a1a 100%);
+  background-size: 100% 100%, 100% 100%, 100% 100%;
+  background-attachment: fixed;
+}

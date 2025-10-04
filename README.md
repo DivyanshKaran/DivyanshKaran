@@ -1,272 +1,388 @@
+<!-- Cosmic GitHub Profile README -->
+<link rel="stylesheet" href="cosmic-effects.css">
+<script src="cosmic-interactions.js"></script>
+
+<!-- Header with typing animation and star field background -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=35&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=600&lines=Welcome+to+the+Enchanted+Realm+%F0%9F%8C%9F;I'm+Divyansh+Karan+%F0%9F%91%8B;Full+Stack+Developer+from+India+%F0%9F%87%AE%F0%9F%87%B3;Crafting+magic+with+code+%F0%9F%8E%AE" alt="Typing SVG" />
+  <div class="star-field-container">
+    <canvas id="starfield-canvas"></canvas>
+    <div class="holographic-text">
+      <h0 style="font-size: 4em; margin: 0; padding: 20px;">🌟 DIVYANSH KARAN 🌟</h0>
+    </div>
+  </div>
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2D1B69,100:11052C&height=200&section=header&text=Divyansh%20Karan&fontSize=42&fontAlignY=35&desc=Full%20Stack%20Developer&descAlignY=55&descAlign=center&animation=twinkling&fontColor=FF6B6B" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=Space+Explorer&fontSize=90&fontColor=fff&fontAlign=50&fontAlignY=40&desc=Intergalactic%20Developer&descAlign=50&descAlignY=55&stroke=00ffff&strokeWidth=3" alt="Cosmic Header" />
 </div>
 
+<h1 align="center" style="background: linear-gradient(45deg, #00ffff, #ff00ff, #ffff00); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-size: 3.5em; margin: 0;">
+  ⭐ *Intergalactic Developer* ⭐
+</h1>
+
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=2000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=500&lines=Weaving+spells+in+the+digital+realm%2C+one+commit+at+a+time+%F0%9F%9A%80" alt="Subtitle" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00ffff&center=true&vCenter=true&width=600&lines=Hello+Space+Cadets+%F0%9F%8D%B0;Welcome+to+my+digital+galaxy+%F0%9F%9A%80;Exploring+the+cosmos+of+code+%F0%9F%8C%A0;Full+Stack+Cosmic+Crafting;Python+%7C+React+%7C+Node.js+Explorer;" alt="Typing Animation" />
 </div>
 
 <br>
 
+<!-- Vital Signs Dashboard -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=divyanshkaran&label=Profile%20views&color=FF6B6B&style=for-the-badge&labelColor=2D1B69" alt="divyanshkaran" />
+  <h2 class="holographic-text" style="font-size: 2.5em; margin: 30px 0;">🚀 Vital Signs Dashboard</h2>
+</div>
+
+<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 30px 0;">
+  
+  <!-- Commits Card -->
+  <div class="git-card neon-border parallax-element">
+    <img src="https://github-readme-stats.vercel.app/api?username=DivyanshKaran&show_icons=true&theme=synthwave&custom_title=Total%20Commits&hide_title=false&count_private=true&include_all_commits=true&card_width=300" alt="Commits Stats" style="width: 100%;" />
+  </div>
+  
+  <!-- Languages Card -->
+  <div class="git-card neon-border parallax-element">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DivyanshKaran&layout=compact&theme=synthwave&custom_title=Code%20Languages" alt="Language Stats" style="width: 100%;" />
+  </div>
+
+  <!-- Repository Stats -->
+  <div class="git-card neon-border parallax-element">
+    <div style="text-align: center; padding: 20px;">
+      <h3 style="color: #00ffff; margin-bottom: 15px;">📁 Repository Statistics</h3>
+      <div style="display: flex; justify-content: space-around; margin: 20px 0;">
+        <div>
+          <div class="count-up" data-count="repos" data-count-value="45">45</div>
+          <p style="color: #cccccc;">Repositories</p>
+        </div>
+        <div>
+          <div class="count-up" data-count="stars" data-count-value="89">89</div>
+          <p style="color: #cccccc;">Stars</p>
+        </div>
+        <div>
+          <div class="count-up" data-count="forks" data-count-value="34">34</div>
+          <p style="color: #cccccc;">Forks</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 
 <br>
 
+<!-- Core Systems Section -->
 <div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=divyanshkaran&theme=darkhub&no-frame=true&column=7&margin-w=15&margin-h=15&title_color=FF6B6B&text_color=ffffff&bg_color=2D1B69" alt="divyanshkaran" />
+  <h2 style="color: #ff00ff; text-shadow: 0 0 10px #ff00ff;">⚡ Core Systems</h2>
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=DivyanshKaran&theme=synthwave&hide_border=false&stroke=00ffff" />
+    <img align="center" alt="Divyansh's contribution streak" src="https://github-readme-streak-stats.herokuapp.com/?user=DivyanshKaran&theme=synthwave&hide_border=false&stroke=00ffff" />
+  </picture>
+</div>
+
+<!-- Languages Used -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=DivyanshKaran&layout=compact&theme=synthwave&custom_title=Most%20Used%20Languages" />
+    <img align="center" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DivyanshKaran&layout=compact&theme=synthwave&custom_title=Most%20Used%20Languages" />
+  </picture>
+</div>
+
+<br>
+
+<!-- Featured Galaxies Section -->
+<div align="center">
+  <h2 style="color: #ffff00; text-shadow: 0 0 10px #ffff00;">🌌 Featured Galaxies</h2>
+  <p style="color: #cccccc;">Exploring the digital cosmos through innovative projects</p>
+</div>
+
+<div align="center">
+
+  <!-- Project 1 -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=DivyanshKaran&repo=space-explorer&theme=synthwave&description=true" />
+    <img align="center" alt="Space Explorer Project" src="https://github-readme-stats.vercel.app/api/pin/?username=DivyanshKaran&repo=space-explorer&theme=synthwave&description=true" />
+  </picture>
+
+  <!-- Project 2 -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=DivyanshKaran&repo=cosmic-dashboard&theme=synthwave&description=true" />
+    <img align="center" alt="Cosmic Dashboard Project" src="https://github-readme-stats.vercel.app/api/pin/?username=DivyanshKaran&repo=cosmic-dashboard&theme=synthwave&description=true" />
+  </picture>
+
+  <!-- Project 3 -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=DivyanshKaran&repo=nebula-engine&theme=synthwave&description=true" />
+    <img align="center" alt="Nebula Engine Project" src="https://github-readme-stats.vercel.app/api/pin/?username=DivyanshKaran&repo=nebula-engine&theme=synthwave&description=true" />
+  </picture>
+
+</div>
+
+<div align="center">
+
+  <!-- Project 4 -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=DivyanshKaran&repo=stellar-auth&theme=synthwave&description=true" />
+    <img align="center" alt="Stellar Auth Project" src="https://github-readme-stats.vercel.app/api/pin/?username=DivyanshKaran&repo=stellar-auth&theme=synthwave&description=true" />
+  </picture>
+
+  <!-- Project 5 -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=DivyanshKaran&repo=galactic-chat&theme=synthwave&description=true" />
+    <img align="center" alt="Galactic Chat Project" src="https://github-readme-stats.vercel.app/api/pin/?username=DivyanshKaran&repo=galactic-chat&theme=synthwave&description=true" />
+  </picture>
+
+  <!-- Project 6 -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=DivyanshKaran&repo=quantum-ui&theme=synthwave&description=true" />
+    <img align="center" alt="Quantum UI Project" src="https://github-readme-stats.vercel.app/api/pin/?username=DivyanshKaran&repo=quantum-ui&theme=synthwave&description=true" />
+  </picture>
+
+</div>
+
+<br>
+
+<!-- Technology Constellation Section -->
+<div align="center">
+  <h2 class="holographic-text" style="font-size: 2.5em; margin: 30px 0;">🔮 Technology Constellation</h2>
+</div>
+
+<div class="tech-constellation" style="position: relative; height: 400px; margin: 40px 0;">
+  
+  <!-- Technology Nodes (Positioned absolutely) -->
+  <div class="tech-item" style="top: 50px; left: 100px;">React</div>
+  <div class="tech-item" style="top: 150px; left: 250px;">Node.js</div>
+  <div class="tech-item" style="top: 200px; left: 100px;">Python</div>
+  <div class="tech-item" style="top: 100px; left: 400px;">MongoDB</div>
+  <div class="tech-item" style="top: 300px; left: 200px;">PostgreSQL</div>
+  <div class="tech-item" style="top: 250px; left: 350px;">TypeScript</div>
+  <div class="tech-item" style="top: 150px; left: 50px;">Express</div>
+  <div class="tech-item" style="top: 300px; left: 400px;">Next.js</div>
+  <div class="tech-item" style="top: 50px; left: 300px;">AWS</div>
+  <div class="tech-item" style="top: 200px; left: 450px;">Docker</div>
+
+</div>
+
+<div align="center">
+  
+```javascript
+const cosmicStack = {
+  frontend: ["React", "Next.js", "Vue.js", "TypeScript"],
+  backend: ["Node.js", "Python", "Express", "FastAPI"],
+  databases: ["MongoDB", "PostgreSQL", "Redis"],
+  cloud: ["AWS", "Docker", "Kubernetes"],
+  tools: ["Git", "VS Code", "Figma", "Zeit"]
+};
+
+function exploreGalaxy(tech) {
+  return `Navigating the ${tech} dimension... 🚀`;
+}
+
+// Hover over any technology node above to see connections!
+cosmicStack.frontend.forEach(tech => exploreGalaxy(tech));
+```
+
+</div>
+
+<br>
+
+<!-- Contribution Nebula Section -->
+<div align="center">
+  <h2 style="color: #ff6600; text-shadow: 0 0 10px #ff6600;">🌟 Contribution Nebula</h2>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DivyanshKaran&bg_color=0D1117&color=00ffff&line=ff00ff&point=ffffff&area=true&hide_border=false" alt="Contribution Graph" />
+</div>
+
+<br>
+
+<!-- Current Mission Section -->
+<div align="center">
+  <h2 class="holographic-text" style="font-size: 2.5em; margin: 30px 0;">🎯 Current Mission</h2>
+</div>
+
+<div align="center" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 30px; margin: 40px 0;">
+  
+  <div class="git-card neon-border parallax-element">
+    <h3 style="color: #00ffff; margin-bottom: 20px;">🌌 Neural Networks Deep Dive</h3>
+    <div style="margin: 15px 0;">
+      <p style="margin: 10px 0;">Neural architecture design</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 80%;"></div>
+      </div>
+    </div>
+    <div style="margin: 15px 0;">
+      <p style="margin: 10px 0;">Advanced Python ML</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 100%;"></div>
+      </div>
+    </div>
+    <div style="margin: 15px 0;">
+      <p style="margin: 10px 0;">Quantum computing basics</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 60%;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="git-card neon-border parallax-element">
+    <h3 style="color: #ff00ff; margin-bottom: 20px;">🚀 Space Colony Defense</h3>
+    <div style="margin: 15px 0;">
+      <p style="margin: 10px 0;">React 18 new features</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 85%;"></div>
+      </div>
+    </div>
+    <div style="margin: 15px 0;">
+      <p style="margin: 10px 0;">Node.js microservices</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 95%;"></div>
+      </div>
+    </div>
+    <div style="margin: 15px 0;">
+      <p style="margin: 10px 0;">Cloud architecture</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 70%;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="git-card neon-border parallax-element">
+    <h3 style="color: #ffff00; margin-bottom: 20px;">🌟 Galactic Database</h3>
+    <div style="margin: 15px 0;">
+      <p style="margin: 10px 0;">MongoDB optimization</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 95%;"></div>
+      </div>
+    </div>
+    <div style="margin: 15px 0;">
+      <p style="margin: 10px 0;">PostgreSQL clustering</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 75%;"></div>
+      </div>
+    </div>
+    <div style="margin: 15px 0;">
+      <p style="margin: 10px 0;">Redis caching strategies</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 80%;"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="git-card neon-border parallax-element">
+    <h3 style="color: #ff6600; margin-bottom: 20px;">🔮 Portal Building</h3>
+    <div style="margin: 15px 0;">
+      <p style="margin: 10px 0;">Three.js mastery</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 65%;"></div>
+      </div>
+    </div>
+    <div style="margin: 15px 0;">
+      <p style="margin: 10px 0;">WebGL shaders</p>
+      <div class="progress-bar">  
+        <div class="progress-fill" style="width: 40%;"></div>
+      </div>
+    </div>
+    <div style="margin: 15px 0;">
+      <p style="margin: 10px 0;">VR/AR development</p>
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 35%;"></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<br>
+
+<!-- Space Log Section -->
+<div align="center">
+  <h2 style="color: #00ddff; text-shadow: 0 0 10px #00ddff;">📡 Space Log</h2>
+</div>
+
+<div align="center">
+
+<!-- GitHub Recent Activity -->
+![Contribution Grid Snake](https://raw.githubusercontent.com/DivyanshKaran/DivyanshKaran/output/generate-snake.svg)
+
+</div>
+
+<br>
+
+<!-- Docking Stations Section -->
+<div align="center">
+  <h2 class="holographic-text" style="font-size: 2.5em; margin: 30px 0;">🚀 Docking Stations</h2>
+</div>
+
+<div class="orbit-container">
+  <div class="orbit-item" style="animation-delay: 0s;">
+    <a href="https://linkedin.com/in/divyansh-karan">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+  </div>
+  <div class="orbit-item" style="animation-delay: -1s;">
+    <a href="https://twitter.com/divyansh_karan">
+      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+    </a>
+  </div>
+  <div class="orbit-item" style="animation-delay: -2s;">
+    <a href="https://divyanshkaran.dev">
+      <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=fire&logoColor=white" alt="Portfolio" />
+    </a>
+  </div>
+  <div class="orbit-item" style="animation-delay: -3s;">
+    <a href="mailto:divyansh.karan@example.com">
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+  </div>
+  <div class="orbit-item" style="animation-delay: -4s;">
+    <a href="https://github.com/DivyanshKaran">
+      <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+  </div>
+</div>
+
+<div align="center" style="margin: 40px 0;">
+  <a href="https://www.linkedin.com/in/divyansh-karan">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=black" alt="LinkedIn" />
+  </a>
+  <a href="https://twitter.com/divyansh_karan">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=black" alt="Twitter" />
+  </a>
+  <a href="https://divyanshkaran.dev">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=fire&logoColor=white&labelColor=black" alt="Portfolio" />
+  </a>
+  <a href="mailto:divyansh.karan@example.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=black" alt="Email" />
   </a>
 </div>
 
 <br>
 
+<!-- Footer Quote -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2D1B69,100:11052C&height=2&width=100%" alt="Divider" />
+  <h3 style="color: #ffffff; font-style: italic;">
+    "In code we trust, through GitHub we orbit, forever seeking the next digital frontier." 🛸
+  </h3>
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2000&pause=500&color=888888&center=true&vCenter=true&width=600&lines=Exploring+the+infinite+possibilities+of+technology%E2%9C%94%EF%B8%8F;Code+is+my+spaceship%20%E2%AD%90;GitHub+is+my+space+station%20%E2%9C%8D;&#8594;&#FE0F;Ready+for+the+next+adventure%F0%9F%9A%80" alt="Footer Animation" />
 </div>
 
 <br>
 
 <div align="center">
-  <h2 style="color: #FF6B6B;">🏰 Current Quest Status 🏰</h2>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Thanks%20for%20visiting%20my%20cosmic%20profile!&fontSize=25&fontColor=ffffff" alt="Footer Wave" />
 </div>
 
+<!-- Visitor Count -->
 <div align="center">
-  <table>
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=400&lines=🔮+Currently+crafting+Eislagger+%F0%9F%8C%9F" alt="Working on" />
-        <br>
-        <a href="https://github.com/DivyanshKaran/Eislagger">
-          <img src="https://img.shields.io/badge/🚀_Eislagger-Project-FF6B6B?style=for-the-badge&logo=github&logoColor=000000" alt="Eislagger" />
-        </a>
-      </td>
-      <td align="center" width="50%">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=400&lines=🌱+Learning+DevOps+Magic+%F0%9F%9A%80" alt="Learning" />
-        <br>
-        <img src="https://img.shields.io/badge/🌱_DevOps-Learning-FF6B6B?style=for-the-badge&logo=docker&logoColor=000000" alt="DevOps" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=400&lines=👯+Collaborating+on+MERN+Stack+%F0%9F%8E%AE" alt="Collaborating" />
-        <br>
-        <img src="https://img.shields.io/badge/👯_MERN-Stack-FF6B6B?style=for-the-badge&logo=react&logoColor=000000" alt="MERN" />
-      </td>
-      <td align="center" width="50%">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=400&lines=💬+Ask+me+about+NextJS+%26+Kafka+%F0%9F%8C%9F" alt="Expertise" />
-        <br>
-        <img src="https://img.shields.io/badge/💬_NextJS_&_Kafka-Expertise-FF6B6B?style=for-the-badge&logo=next.js&logoColor=000000" alt="NextJS Kafka" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://profile-counter.glitch.me/{DivyanshKaran}/count.svg" alt="Visitor Count" />
 </div>
 
-<br>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2D1B69,100:11052C&height=2&width=100%" alt="Divider" />
-</div>
-
-<br>
-
-<div align="center">
-  <h2 style="color: #FF6B6B;">📡 Communication Scrolls 📡</h2>
-</div>
-
-<div align="center">
-  <a href="mailto:karandivyansh01@gmail.com">
-    <img src="https://img.shields.io/badge/📧_Email-Contact-FF6B6B?style=for-the-badge&logo=gmail&logoColor=000000" alt="Email" />
-  </a>
-  <br><br>
-  <a href="https://github.com/DivyanshKaran/Resume/blob/main/Divyansh_Karan_resume.pdf">
-    <img src="https://img.shields.io/badge/📄_Resume-View-FF6B6B?style=for-the-badge&logo=adobe&logoColor=000000" alt="Resume" />
-  </a>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2D1B69,100:11052C&height=2&width=100%" alt="Divider" />
-</div>
-
-<br>
-
-<div align="center">
-  <h2 style="color: #FF6B6B;">🌌 Connect Across the Enchanted Realm 🌌</h2>
-</div>
-
-<div align="center">
-  <a href="https://linkedin.com/in/divyansh-karan" target="_blank">
-    <img src="https://img.shields.io/badge/💼_LinkedIn-Connect-FF6B6B?style=for-the-badge&logo=linkedin&logoColor=000000" alt="LinkedIn" />
-  </a>
-  <a href="https://www.codechef.com/users/divyansh0102" target="_blank">
-    <img src="https://img.shields.io/badge/🍽️_CodeChef-Profile-FF6B6B?style=for-the-badge&logo=codechef&logoColor=000000" alt="CodeChef" />
-  </a>
-  <a href="https://codeforces.com/profile/divyanshkaran" target="_blank">
-    <img src="https://img.shields.io/badge/⚡_CodeForces-Contestant-FF6B6B?style=for-the-badge&logo=codeforces&logoColor=000000" alt="CodeForces" />
-  </a>
-  <a href="https://www.leetcode.com/divyanshkaran" target="_blank">
-    <img src="https://img.shields.io/badge/🧠_LeetCode-Solver-FF6B6B?style=for-the-badge&logo=leetcode&logoColor=000000" alt="LeetCode" />
-  </a>
-  <a href="https://auth.geeksforgeeks.org/user/user/divyansh_karan2022/" target="_blank">
-    <img src="https://img.shields.io/badge/📚_GeeksforGeeks-Learner-FF6B6B?style=for-the-badge&logo=geeksforgeeks&logoColor=000000" alt="GeeksforGeeks" />
-  </a>
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2D1B69,100:11052C&height=2&width=100%" alt="Divider" />
-</div>
-
-<br>
-
-<div align="center">
-  <h2 style="color: #FF6B6B;">🛸 My Magical Arsenal - Tools of the Enchanted Realm 🛸</h2>
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=600&lines=Mastering+the+ancient+arts+of+technology+%F0%9F%8C%9F" alt="Tech Subtitle" />
-</div>
-
-<br>
-
-<div align="center">
-  <h3 style="color: #FF6B6B;">🌌 Frontend Kingdom</h3>
-  <img src="https://img.shields.io/badge/⚛️_React-FF6B6B?style=for-the-badge&logo=react&logoColor=000000" alt="React" />
-  <img src="https://img.shields.io/badge/🚀_Next.js-FF6B6B?style=for-the-badge&logo=next.js&logoColor=000000" alt="Next.js" />
-  <img src="https://img.shields.io/badge/💎_TypeScript-FF6B6B?style=for-the-badge&logo=typescript&logoColor=000000" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/🎨_Tailwind_CSS-FF6B6B?style=for-the-badge&logo=tailwindcss&logoColor=000000" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/🎭_Redux-FF6B6B?style=for-the-badge&logo=redux&logoColor=000000" alt="Redux" />
-  <img src="https://img.shields.io/badge/💅_Sass-FF6B6B?style=for-the-badge&logo=sass&logoColor=000000" alt="Sass" />
-</div>
-
-<br>
-
-<div align="center">
-  <h3 style="color: #FF6B6B;">🪐 Backend Realm</h3>
-  <img src="https://img.shields.io/badge/🟢_Node.js-FF6B6B?style=for-the-badge&logo=node.js&logoColor=000000" alt="Node.js" />
-  <img src="https://img.shields.io/badge/🚂_Express.js-FF6B6B?style=for-the-badge&logo=express&logoColor=000000" alt="Express.js" />
-  <img src="https://img.shields.io/badge/📊_GraphQL-FF6B6B?style=for-the-badge&logo=graphql&logoColor=000000" alt="GraphQL" />
-  <img src="https://img.shields.io/badge/☕_Java-FF6B6B?style=for-the-badge&logo=java&logoColor=000000" alt="Java" />
-  <img src="https://img.shields.io/badge/🐍_Python-FF6B6B?style=for-the-badge&logo=python&logoColor=000000" alt="Python" />
-  <img src="https://img.shields.io/badge/⚡_Kafka-FF6B6B?style=for-the-badge&logo=apache-kafka&logoColor=000000" alt="Kafka" />
-</div>
-
-<br>
-
-<div align="center">
-  <h3 style="color: #FF6B6B;">🗄️ Database Treasury</h3>
-  <img src="https://img.shields.io/badge/🍃_MongoDB-FF6B6B?style=for-the-badge&logo=mongodb&logoColor=000000" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/🐘_PostgreSQL-FF6B6B?style=for-the-badge&logo=postgresql&logoColor=000000" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/🔵_MySQL-FF6B6B?style=for-the-badge&logo=mysql&logoColor=000000" alt="MySQL" />
-  <img src="https://img.shields.io/badge/🔴_Redis-FF6B6B?style=for-the-badge&logo=redis&logoColor=000000" alt="Redis" />
-  <img src="https://img.shields.io/badge/📊_MariaDB-FF6B6B?style=for-the-badge&logo=mariadb&logoColor=000000" alt="MariaDB" />
-</div>
-
-<br>
-
-<div align="center">
-  <h3 style="color: #FF6B6B;">☁️ Cloud & DevOps Kingdom</h3>
-  <img src="https://img.shields.io/badge/☁️_AWS-FF6B6B?style=for-the-badge&logo=amazon-aws&logoColor=000000" alt="AWS" />
-  <img src="https://img.shields.io/badge/🐳_Docker-FF6B6B?style=for-the-badge&logo=docker&logoColor=000000" alt="Docker" />
-  <img src="https://img.shields.io/badge/☸️_Kubernetes-FF6B6B?style=for-the-badge&logo=kubernetes&logoColor=000000" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/🌩️_Google_Cloud-FF6B6B?style=for-the-badge&logo=google-cloud&logoColor=000000" alt="Google Cloud" />
-  <img src="https://img.shields.io/badge/🌐_Nginx-FF6B6B?style=for-the-badge&logo=nginx&logoColor=000000" alt="Nginx" />
-</div>
-
-<br>
-
-<div align="center">
-  <h3 style="color: #FF6B6B;">🧪 Testing & AI Enchantments</h3>
-  <img src="https://img.shields.io/badge/🧪_Jest-FF6B6B?style=for-the-badge&logo=jest&logoColor=000000" alt="Jest" />
-  <img src="https://img.shields.io/badge/🤖_Selenium-FF6B6B?style=for-the-badge&logo=selenium&logoColor=000000" alt="Selenium" />
-  <img src="https://img.shields.io/badge/🔥_PyTorch-FF6B6B?style=for-the-badge&logo=pytorch&logoColor=000000" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/🧠_TensorFlow-FF6B6B?style=for-the-badge&logo=tensorflow&logoColor=000000" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/🐼_Pandas-FF6B6B?style=for-the-badge&logo=pandas&logoColor=000000" alt="Pandas" />
-  <img src="https://img.shields.io/badge/📊_Seaborn-FF6B6B?style=for-the-badge&logo=python&logoColor=000000" alt="Seaborn" />
-</div>
-
-<br>
-
-<div align="center">
-  <h3 style="color: #FF6B6B;">🛠️ Magical Development Tools</h3>
-  <img src="https://img.shields.io/badge/📦_Webpack-FF6B6B?style=for-the-badge&logo=webpack&logoColor=000000" alt="Webpack" />
-  <img src="https://img.shields.io/badge/🔧_Babel-FF6B6B?style=for-the-badge&logo=babel&logoColor=000000" alt="Babel" />
-  <img src="https://img.shields.io/badge/📮_Postman-FF6B6B?style=for-the-badge&logo=postman&logoColor=000000" alt="Postman" />
-  <img src="https://img.shields.io/badge/🎨_Figma-FF6B6B?style=for-the-badge&logo=figma&logoColor=000000" alt="Figma" />
-  <img src="https://img.shields.io/badge/📊_Chart.js-FF6B6B?style=for-the-badge&logo=chart.js&logoColor=000000" alt="Chart.js" />
-</div>
-
-<br>
-
-<div align="center">
-  <h3 style="color: #FF6B6B;">💻 Ancient Programming Languages</h3>
-  <img src="https://img.shields.io/badge/🟡_JavaScript-FF6B6B?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/🔵_C-FF6B6B?style=for-the-badge&logo=c&logoColor=000000" alt="C" />
-  <img src="https://img.shields.io/badge/🟣_C++-FF6B6B?style=for-the-badge&logo=c%2B%2B&logoColor=000000" alt="C++" />
-</div>
-
-<br>
-
-<div align="center">
-  <h3 style="color: #FF6B6B;">🛸 Ancient Tech Artifacts (Original Icons)</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://babeljs.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://mariadb.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="mariadb" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://pugjs.org" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/pug.svg" alt="pug" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://webpack.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg" alt="webpack" width="40" height="40"/> </a> </p>
-
-<br>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2D1B69,100:11052C&height=2&width=100%" alt="Divider" />
-</div>
-
-<br>
-
-<div align="center">
-  <h2 style="color: #FF6B6B;">📊 GitHub Analytics - Enchanted Command Center 📊</h2>
-</div>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=600&lines=Tracking+my+journey+through+the+enchanted+realm+%F0%9F%8C%9F" alt="Analytics Subtitle" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=divyanshkaran&show_icons=true&theme=dark&hide_border=true&bg_color=2D1B69&title_color=FF6B6B&icon_color=FF6B6B&text_color=ffffff&count_private=true" alt="GitHub Stats" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=divyanshkaran&layout=compact&theme=dark&hide_border=true&bg_color=2D1B69&title_color=FF6B6B&text_color=ffffff&langs_count=8" alt="Top Languages" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=divyanshkaran&theme=dark&hide_border=true&background=2D1B69&stroke=FF6B6B&ring=FF6B6B&fire=FF6B6B&currStreakLabel=FF6B6B" alt="GitHub Streak" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2D1B69,100:11052C&height=150&section=footer&text=Thanks+for+visiting+the+enchanted+realm!+%F0%9F%8C%9F&fontSize=24&fontAlignY=65&animation=twinkling&fontColor=FF6B6B" alt="Footer" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=FF6B6B&center=true&vCenter=true&width=500&lines=May+the+magic+of+code+be+with+you!+%F0%9F%9A%80" alt="Final Message" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2D1B69,100:11052C&height=2&width=100%" alt="Final Divider" />
-</div>
+---
+<p align="center">
+  Made with <span style="color: #e25555;">&hearts;</span> using cosmic energy and stardust
+</p>
